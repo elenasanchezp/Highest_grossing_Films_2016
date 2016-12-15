@@ -1,0 +1,30 @@
+﻿[
+  {
+    "name": "Walt Disney Studios",
+    "shortname": "Walt_Disney_Studios",
+    "type": "Division", 
+    "industry": "Entertainment",
+    "bio": "The Walt Disney Studios is an American film studio, one of the four major businesses of The Walt Disney Company and the main component of its Studio Entertainment segment.[1] The studio, best known for its multi-faceted film division, which is one of Hollywood's major film studios, is based at the eponymous Walt Disney Studios in Burbank, California."
+  },
+  {
+    "name":"Universal Studios",
+    "shortname": "Universal_Studios",
+    "type": "Subsidiary", 
+    "industry": "Film",
+    "bio": "Universal Studios (known professionally as Universal Pictures and also simply referred to as Universal) is an American film studio owned by Comcast through the Universal Filmed Entertainment Group division of its wholly owned subsidiary NBCUniversal.[1] The company was founded in 1912 by Carl Laemmle, Mark Dintenfass, Charles O. Baumann, Adam Kessel, Pat Powers, William Swanson, David Horsley, Robert H. Cochrane, and Jules Brulatour, and is the oldest surviving film studio in the United States, the world's fourth oldest after Gaumont, Pathé and Nordisk Film, and the oldest in terms of the overall film market[citation needed]. Its studios are located in Universal City, California, and its corporate offices are located in New York City. Universal Studios is a member of the Motion Picture Association of America (MPAA) and is one of Hollywood's 'Big Six' studios."
+  },
+  {
+    "name":"Warner Bros.",
+    "shortname": "Warner_Bros",
+    "type": "Division", 
+    "industry": "Entertainment",
+    "bio": "Warner Bros. Entertainment Inc. (known professionally as Warner Bros. Pictures, often referred to as Warner Bros. and Warner Brothers and abbreviated as WB) is an American entertainment company, film studio and film distributor that is a division of Time Warner and is headquartered in Burbank, California. It is one of the 'Big Six' major American film studios located of Hollywood, California."
+  },
+  {
+    "name":"20th Century Fox",
+    "shortname": "20th_Century_Fox",
+    "type": "Subsidiary", 
+    "industry": "Film",
+    "bio": "Twentieth Century Fox Film Corporation (known as Twentieth Century-Fox with hyphen from 1935 until 1985, professionally as 20th Century Fox, Twentieth Century Fox or simply known as Fox) is an American film studio and film distributor currently owned by 21st Century Fox. It is one of the 'Big Six' major American film studios and is located in the Century City area of Los Angeles, just west of Beverly Hills. The studio was formerly owned by News Corporation."
+  }
+]

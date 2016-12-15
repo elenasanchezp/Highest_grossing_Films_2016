@@ -1,0 +1,14 @@
+<section id="distributor-info" class="distributor-info">
+  <div class="distributor cf" ng-model="distributors">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+    <h1>{{distributors[whichItem].name}}</h1>
+    <div class="info">
+      <h3>{{distributors[whichItem].type}}</h3>
+      <h3>{{distributors[whichItem].industry}}</h3>
+      <img ng-src="content/images/distributors/{{distributors[whichItem].shortname}}.jpg" alt="{{distributor[whichItem].name}}">
+      <div class="bio">{{distributors[whichItem].bio}}</div>
+    </div>
+  </div>
+  <a href="../distributors.html" class="btn btn-left">&laquo; Back to search</a>
+</section>

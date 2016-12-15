@@ -1,0 +1,41 @@
+<section class="distributorpage">
+  <div id="distributor-searcharea" class="searcharea">
+        <label for="search"><h1>Distributors search</h1></label>
+        <p>Enter the title or the info about a distributor:</p>
+        <input ng-model="query" placeholder="title or info" autofocus />
+
+        <br />
+        <label class="formgroup">by:
+            <select ng-model="distributorOrder">
+                <option value="name">Name</option>
+                <option value="type">Type</option>
+                <option value="industry">Industry</option>
+            </select>
+        </label>
+
+        <br />
+        <label class="formgroup">
+            <input type="radio" ng-model="direction" name="direction" checked>
+            ascending
+        </label>
+
+        <label class="formgroup">
+            <input type="radio" ng-model="direction" name="direction" value="reverse">
+            descending
+        </label>
+   
+  </div>
+    <div id="distributor-results" class="search-results">
+        <ul class="ul-search-results" ng-show="query">
+            <li ng-animate="'animate'" class="distributor cf" ng-repeat="item in distributors | filter: query | orderBy: distributorOrder:direction">
+                <a href="#/details/{{distributors.indexOf(item)}}">
+                    <h2>{{item.name}}</h2>
+                    <img ng-src="/content/images/distributors/{{item.shortname}}.jpg" alt="{{item.name}}">
+                    <p>{{item.type}}</p>
+                    <p>{{item.industry}}</p>
+                    <p>{{item.bio}}</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
